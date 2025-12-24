@@ -1,0 +1,23 @@
+---
+---
+@import "{{ site.theme }}";
+
+/* This stops the photo from overlapping the navigation links */
+header {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+/* This constrains your photo so it doesn't push elements around */
+header img {
+  max-width: 180px; /* Adjust this number if you want the photo larger or smaller */
+  height: auto;
+  border-radius: 10px;
+  display: block;
+  margin-bottom: 15px;
+}
+
+/* This ensures the main text doesn't crawl up under the sidebar */
+section {
+  padding-top: 20px;
+}
